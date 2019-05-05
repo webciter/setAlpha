@@ -36,18 +36,15 @@ Element.prototype.setColorAlpha = function(a) {
  * @returns {void}
  */
 Element.prototype.setAlpha = function(a, b) {
-    console.log("d");
     
     if(isNaN(a)){
-            throw "NaN in setAlpha";
-        }
+        throw "NaN in setAlpha";
+    }
     
-        if(a > 100 || a < 0){
-            throw "Alpha transparency is out of range.";
-        }
-        
-        
-        
+    if(a > 100 || a < 0){
+        throw "Alpha transparency is out of range.";
+    }
+
         let c,d;
         
         /* switch to allow multipul rules to be used */
