@@ -47,7 +47,7 @@ Element.prototype.setAlpha = function(a, b) {
 
         let c,d;
         
-        /* switch to allow multipul rules to be used */
+        /* switch to allow multiple rules to be used */
         if(b===1){
             c = "color";
             d = c;
