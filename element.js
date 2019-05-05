@@ -1,5 +1,6 @@
-/* Code By David Clews 
-*/
+/* Code Edited By David Clews
+ * Original Source: https://stackoverflow.com/questions/8177964/in-javascript-how-can-i-set-rgba-without-specifying-the-rgb/8179549
+ */
 
 /*
  * setBackgroundAlpha
