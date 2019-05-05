@@ -1,3 +1,6 @@
+/* Code By David Clews 
+*/
+
 /*
  * setBackgroundAlpha
  * 
