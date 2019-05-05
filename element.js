@@ -31,7 +31,7 @@ Element.prototype.setColorAlpha = function(a) {
  * 
  * Sets the alpha transparency to a percentage
  * 
- * @param {integer} a The Percentage 0 - 100#
+ * @param {integer} a The Percentage 0 - 100
  * @param {integer} b The rule to use
  * @returns {void}
  */
