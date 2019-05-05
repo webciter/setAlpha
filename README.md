@@ -3,6 +3,7 @@ Set both the Alpha Transparency of Text and Backgrounds maintaining inheritance 
 
 <pre>
 var element = document.getElementById("test");
+element.style.backgroundColor = "#000"; /* you need to set the background color first*/
 element.setBackgroundAlpha(50); /* 50 transparency */
 </pre>
 
