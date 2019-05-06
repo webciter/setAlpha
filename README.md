@@ -7,4 +7,13 @@ element.style.backgroundColor = "#000"; /* you need to set the background color 
 element.setBackgroundAlpha(50); /* 50% transparency */
 </pre>
 
+You can set all backgrounds and text to a default color by a rule like this
+
+<pre>
+*{
+background-color: #FFF;
+color: #000;
+}
+</pre>
+
 Any element nested can also be change to it's own alpha transparency which was not possible with opacity css rule
