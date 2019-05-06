@@ -61,7 +61,7 @@ Element.prototype.setAlpha = function(a, b) {
                 f = /rgba?\((\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*(,\s*\d+[\.\d+]*)*\)/g.exec(e)
         a = a > 1 ? (a / 100) : a;
         if(f === null){
-            throw "You must first set the background color of the Element";
+            throw "You must first set the color value of the Element";
         }
         this.style[d] = "rgba(" + [f[1],f[2],f[3],a].join(',') +")";
 }
