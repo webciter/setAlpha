@@ -14,6 +14,18 @@ Element.prototype.setBackgroundAlpha = function(a) {
         this.setAlpha(a,2);
 }
 
+/*
+ * setBorderAlpha
+ * 
+ * Sets the alpha transparency of border to a percentage
+ * 
+ * @param {integer} a The Percentage 0 - 100
+ * @returns {void}
+ */
+Element.prototype.setBorderAlpha = function(a) {
+        this.setAlpha(a,3);
+}
+
 
 /*
  * setColorAlpha
@@ -55,7 +67,10 @@ Element.prototype.setAlpha = function(a, b) {
         }else if(b===2){
             c = "background-color";
             d = "backgroundColor";
-        }
+        }else if(b===3){
+            c = "border-color";
+            d = "borderColor";
+        }     
         
         let e = getComputedStyle(this).getPropertyValue(c),
                 f = /rgba?\((\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*(,\s*\d+[\.\d+]*)*\)/g.exec(e)
