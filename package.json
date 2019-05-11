@@ -1,0 +1,24 @@
+{
+  "name": "element-functions-set_alpha",
+  "version": "1.0.0",
+  "description": "Allows you to change the alpha values of a element without breaking the cascading effect of css.",
+  "main": "Element.js",
+  "dependencies": {
+   
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webciter/setAlpha.git"
+  },
+  "keywords": [
+    "canvas","transparency"
+  ],
+  "author": "David Clews",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webciter/setAlpha/issues"
+  },
+  "homepage": "https://github.com/webciter/setAlpha#readme"
+}
